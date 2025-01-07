@@ -2,17 +2,17 @@
   "_meta": {
     "sources": [
       {
-        "json": "A4GN",
-        "abbreviation": "GloryNeph",
-        "full": "Addi-4th's Glory Nephilim Conversion",
+        "json": "Addi-4th",
+        "abbreviation": "Addi",
+        "full": "Addi-4th",
         "authors": [
-          "NinjaFocks"
+          "u/YourUsername"
         ],
         "convertedBy": [
-          "Addi-4th"
+          "Ikaguia"
         ],
         "version": "1.0",
-        "url": "https://www.reddit.com/r/UnearthedArcana/comments/bha9uj/elven_subrace_ash_elf_a_tough_race_of_greyskinned/",
+        "url": "https://www.dndbeyond.com/species/1524096-glory-nephilim",
         "targetSchema": "1.0.0"
       }
     ],

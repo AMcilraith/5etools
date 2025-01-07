@@ -1,4 +1,26 @@
 {
+  "_meta": {
+    "sources": [
+      {
+        "json": "Addi-4th",
+        "abbreviation": "Addi",
+        "full": "Addi-4th",
+        "authors": [
+          "u/YourUsername"
+        ],
+        "convertedBy": [
+          "Ikaguia"
+        ],
+        "version": "1.0",
+        "url": "https://www.reddit.com/r/UnearthedArcana/comments/bha9uj/elven_subrace_ash_elf_a_tough_race_of_greyskinned/",
+        "targetSchema": "1.0.0"
+      }
+    ],
+    "dateAdded": 1572295517,
+    "dateLastModified": 1729630006,
+    "_dateLastModifiedHash": "ac028fe9d4",
+    "edition": "classic"
+  },
   "name": "Glory Nephilim",
   "source": "Homebrew",
   "type": "race",

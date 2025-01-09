@@ -15,156 +15,176 @@
         "url": "https://www.dndbeyond.com/species/1524096-glory-nephilim",
         "targetSchema": "1.0.0"
       }
-    ],
-    "dateAdded": 1572295517,
-    "dateLastModified": 1729630006,
-    "_dateLastModifiedHash": "ac028fe9d4",
-    "edition": "classic"
+    ]
   },
-  "name": "Glory Nephilim",
-  "source": "Homebrew",
-  "type": "race",
-  "size": "M",
-  "speed": {
-    "walk": 30
-  },
-  "ability": [
+  "race": [
     {
-      "cha": "+2"
-    }
-  ],
-  "languageProficiencies": [
-    "Common",
-    "Celestial",
-    "Infernal"
-  ],
-  "resist": [
-    "necrotic",
-    "radiant"
-  ],
-  "vision": [
-    {
-      "type": "darkvision",
-      "range": 60
-    }
-  ],
-  "trait": [
-    {
-      "name": "Celestial Resistance",
-      "entries": [
-        "You have resistance to necrotic damage and radiant damage."
-      ]
-    }
-  ],
-  "subraces": [
-    {
-      "name": "Celestial Tiefling",
-      "source": "Homebrew",
+      "name": "Glory Nephilim",
+      "source": "GN",
+      "size": [
+        "M"
+      ],
+      "speed": {
+        "walk": 30
+      },
       "ability": [
         {
-          "dex": "+2"
+          "cha": 2
         }
       ],
-      "type": "fiend",
+      "languageProficiencies": {
+        "proficient": [
+          "Common",
+          "Celestial",
+          "Infernal"
+        ]
+      },
+      "resistances": [
+        "necrotic",
+        "radiant"
+      ],
       "vision": [
         {
           "type": "darkvision",
-          "range": 120
+          "range": 60
         }
       ],
-      "trait": [
+      "entries": [
         {
-          "name": "Devil's Eyes",
+          "name": "Celestial Resistance",
           "entries": [
-            "You have enhanced Darkvision up to 120ft."
-          ]
-        },
-        {
-          "name": "Harming Hands",
-          "entries": [
-            "As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature loses a number of hit points equal to the total rolled. Once you use this trait, you can’t use it again until you finish a long rest."
-          ]
-        },
-        {
-          "name": "Chaos Bearer",
-          "entries": [
-            "You know the _thaumaturgy_ cantrip."
-          ]
-        },
-        {
-          "name": "Radiant Soul",
-          "entries": [
-            "Once per long rest, you can use a bonus action to transform using your revelation which lasts for one minute or until you end it as a bonus action.",
-            "You unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back. During your transformation, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level."
-          ]
-        },
-        {
-          "name": "Fiendish Legacy",
-          "entries": [
-            "When hitting Celestial enemies you deal an extra 1d8 damage."
+            "You have resistance to necrotic damage and radiant damage."
           ]
         }
+      ],
+      "subraces": [
+        {
+          "name": "Celestial Tiefling",
+          "source": "GN",
+          "ability": [
+            {
+              "dex": 2
+            }
+          ],
+          "type": "fiend",
+          "vision": [
+            {
+              "type": "darkvision",
+              "range": 120
+            }
+          ],
+          "entries": [
+            {
+              "name": "Devil's Eyes",
+              "entries": [
+                "You have enhanced Darkvision up to 120ft."
+              ]
+            },
+            {
+              "name": "Harming Hands",
+              "entries": [
+                "As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature loses a number of hit points equal to the total rolled. Once you use this trait, you can’t use it again until you finish a long rest."
+              ]
+            },
+            {
+              "name": "Chaos Bearer",
+              "entries": [
+                "You know the _thaumaturgy_ cantrip."
+              ]
+            },
+            {
+              "name": "Radiant Soul",
+              "entries": [
+                "Once per long rest, you can use a bonus action to transform using your revelation which lasts for one minute or until you end it as a bonus action.",
+                "You unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back. During your transformation, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level."
+              ]
+            },
+            {
+              "name": "Fiendish Legacy",
+              "entries": [
+                "When hitting Celestial enemies you deal an extra 1d8 damage."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fiendish Aasimar",
+          "source": "GN",
+          "ability": [
+            {
+              "str": 2
+            }
+          ],
+          "speed": {
+            "fly": 60
+          },
+          "entries": [
+            {
+              "name": "Healing Hands",
+              "entries": [
+                "As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature regains a number of hit points equal to the total rolled. Once you use this trait, you can’t use it again until you finish a long rest."
+              ]
+            },
+            {
+              "name": "Light Bearer",
+              "entries": [
+                "You know the _light_ cantrip. Charisma is your spellcasting ability for it."
+              ]
+            },
+            {
+              "name": "Radiant Consumption",
+              "entries": [
+                "Once per long rest, you can use a bonus action to transform using your revelation which lasts for one minute or until you end it as a bonus action.",
+                "Searing light temporarily radiates from your eyes and mouth. For the duration, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes radiant damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus."
+              ]
+            },
+            {
+              "name": "Celestial Legacy",
+              "entries": [
+                "When hitting Fiendish enemies you deal an extra 1d8 damage."
+              ]
+            }
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Descendants from the Champions of Ibberath, Uriel & Nemeia, the Glory Nephilim are a race which combines different features from both the Aasimar and Tiefling races.",
+          "At 1st level, you choose whether your character is a Fiendish Aasimar or Angelic Tiefling sub-race.",
+          {
+            "type": "entries",
+            "name": "Life Span",
+            "entries": [
+              "Glory Nephilim mature at the same rate as humans, but they can live somewhere between 500-1000 years."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Height and Weight",
+            "entries": [
+              "Glory Nephilim have a similar build as humans, but height can vary from 4 to 7 feet."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "feat": [
+    {
+      "name": "Radiant Transformation",
+      "source": "GN",
+      "prerequisite": "Glory Nephilim",
+      "entries": [
+        "You can transform using your radiant revelation as a bonus action. This ability lasts for 1 minute or until you end it as a bonus action. Once used, it cannot be used again until you finish a long rest."
       ]
     },
     {
-      "name": "Fiendish Aasimar",
-      "source": "Homebrew",
-      "ability": [
-        {
-          "str": "+2"
-        }
-      ],
-      "type": "celestial",
-      "speed": {
-        "fly": 60
-      },
-      "trait": [
-        {
-          "name": "Healing Hands",
-          "entries": [
-            "As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature regains a number of hit points equal to the total rolled. Once you use this trait, you can’t use it again until you finish a long rest."
-          ]
-        },
-        {
-          "name": "Light Bearer",
-          "entries": [
-            "You know the _light_ cantrip. Charisma is your spellcasting ability for it."
-          ]
-        },
-        {
-          "name": "Radiant Consumption",
-          "entries": [
-            "Once per long rest, you can use a bonus action to transform using your revelation which lasts for one minute or until you end it as a bonus action.",
-            "Searing light temporarily radiates from your eyes and mouth. For the duration, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes radiant damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus."
-          ]
-        },
-        {
-          "name": "Celestial Legacy",
-          "entries": [
-            "When hitting Fiendish enemies you deal an extra 1d8 damage."
-          ]
-        }
+      "name": "Fiendish Strength",
+      "source": "GN",
+      "prerequisite": "Fiendish Aasimar subrace",
+      "entries": [
+        "Your Fiendish heritage strengthens your attacks. When hitting a celestial enemy, you deal an additional 1d8 radiant damage. This bonus stacks with your Celestial Legacy trait."
       ]
     }
-  ],
-  "fluff": {
-    "entries": [
-      "Descendants from the Champions of Ibberath, Uriel & Nemeia, the Glory Nephilim are a race which combines different features from both the Aasimar and Tiefling races.",
-      "At 1st level, you choose whether your character is a Fiendish Aasimar or Angelic Tiefling sub-race.",
-      {
-        "type": "entries",
-        "name": "Life Span",
-        "entries": [
-          "Glory Nephilim mature at the same rate as humans, but they can live somewhere between 500-1000 years."
-        ]
-      },
-      {
-        "type": "entries",
-        "name": "Height and Weight",
-        "entries": [
-          "Glory Nephilim have a similar build as humans, but height can vary from 4 to 7 feet."
-        ]
-      }
-    ]
-  }
+  ]
 }
